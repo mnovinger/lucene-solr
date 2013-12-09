@@ -24,7 +24,7 @@
   <dirname file="${ant.file.common-solr}" property="common-solr.dir"/>
   
   <property name="Name" value="Solr" />
-  <property name="version" value="3.6.3-SNAPSHOT"/>
+  <property name="version" value="3.6.3-RallyModified"/>
   <condition property="version.contains.SNAPSHOT">
     <contains casesensitive="true" string="${version}" substring="-SNAPSHOT"/>
   </condition>
